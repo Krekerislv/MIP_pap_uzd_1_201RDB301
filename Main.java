@@ -451,7 +451,7 @@ public class Main {
 		Node root = new Node(startState);
 		root.generateTree();
 		System.out.print("Author: Krišs Aleksandrs Vasermans\n201RDB301\n");
-		System.out.print("RDBR0 / Intelektuālas robotizētas sistēmas\\n\\n");
+		System.out.print("RDBR0 / Intelektuālas robotizētas sistēmas\n\n");
 		System.out.println("■ - dead end\n✔ - target state\n");
 		root.printTree();
 		System.out.printf("Number of nodes: %d\n", root.getSubTreeNodeCount() + 1);
